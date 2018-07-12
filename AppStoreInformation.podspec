@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "Fetches AppStore web page information of the iOS application."
   s.homepage     = "https://github.com/marcmatta/AppStoreInformation.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "marc.matta" }
+  s.author             = "marc.matta"
   s.social_media_url   = "http://www,linkedin.com/in/marcmatta"
   s.screenshots = "https://github.com/marcmatta/AppStoreInformation/blob/master/Whatsapp%20App%20Info.png"
   s.platform     = :ios
