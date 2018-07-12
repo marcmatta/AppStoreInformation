@@ -1,6 +1,6 @@
 # AppStoreInformation
 
-[![CI Status](https://img.shields.io/travis/marcmatta@gmail.com/AppStoreInformation.svg?style=flat)](https://travis-ci.org/marcmatta@gmail.com/AppStoreInformation)
+[![CI Status](https://img.shields.io/travis/marcmatta/AppStoreInformation.svg?style=flat)](https://travis-ci.org/marcmatta/AppStoreInformation)
 [![Version](https://img.shields.io/cocoapods/v/AppStoreInformation.svg?style=flat)](https://cocoapods.org/pods/AppStoreInformation)
 [![License](https://img.shields.io/cocoapods/l/AppStoreInformation.svg?style=flat)](https://cocoapods.org/pods/AppStoreInformation)
 [![Platform](https://img.shields.io/cocoapods/p/AppStoreInformation.svg?style=flat)](https://cocoapods.org/pods/AppStoreInformation)
