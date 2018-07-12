@@ -8,8 +8,10 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = "marc.matta"
 s.platform     = :ios
 s.ios.deployment_target = '8.0'
-s.source       = { :git => "https://github.com/marcmatta/AppStoreInformation.git", :tag => s.version.to_s }
-s.source_files = "AppStoreInformation", "AppStoreInformation/Classes/**/*{h,m,swift}"
+s.source       = { :git => "https://github.com/marcmatta/AppStoreInformation.git", :tag => s.version }
+s.source_files = "AppStoreInformation", "AppStoreInformation/Classes/**/*.swift"
 s.framework  = "Foundation"
+s.requires_arc = true
 s.swift_version = "4.1"
+
 end
