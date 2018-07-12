@@ -6,16 +6,13 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/marcmatta/AppStoreInformation.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = "marc.matta"
-  s.social_media_url   = "http://www,linkedin.com/in/marcmatta"
-  s.screenshots = "https://github.com/marcmatta/AppStoreInformation/blob/master/Whatsapp%20App%20Info.png"
+  s.social_media_url   = "https://www.linkedin.com/in/marcmatta"
+  s.screenshots = "https://github.com/marcmatta/AppStoreInformation/blob/master/1.png"
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
-
   s.source       = { :git => "https://github.com/marcmatta/AppStoreInformation.git", :tag => "#{s.version}" }
-
   s.source_files  = "AppStoreInformation", "AppStoreInformation/**/*.{swift}"
-
   s.framework  = "Foundation"
-
+  s.swift_version = '4.1'
   s.requires_arc = true
 end
