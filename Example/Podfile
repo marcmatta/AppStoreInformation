@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AppStoreInformation_Example' do
+  pod 'AppStoreInformation', :path => '../'
+
+  target 'AppStoreInformation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
