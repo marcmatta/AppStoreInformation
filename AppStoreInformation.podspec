@@ -12,5 +12,4 @@ s.ios.deployment_target = '8.0'
 s.source       = { :git => "https://github.com/marcmatta/AppStoreInformation.git", :tag => s.version.to_s }
 s.source_files = 'AppStoreInformation/Classes/**/*'
 s.framework  = "Foundation"
-s.swift_version = '4.1'
 end
