@@ -9,7 +9,7 @@ s.author             = "marc.matta"
 s.platform     = :ios
 s.ios.deployment_target = '8.0'
 s.source       = { :git => "https://github.com/marcmatta/AppStoreInformation.git", :tag => s.version.to_s }
-s.source_files = 'AppStoreInformation/Classes/**/*'
+s.source_files = "AppStoreInformation", "AppStoreInformation/Classes/**/*{h,m,swift}"
 s.framework  = "Foundation"
 s.swift_version = "4.1"
 end

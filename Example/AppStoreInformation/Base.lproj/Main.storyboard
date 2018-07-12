@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NnD-xi-4pU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lSP-2B-X8E">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="PTX-Jm-Hez">
+        <scene sceneID="mIU-lp-1MI">
             <objects>
-                <viewController id="NnD-xi-4pU" customClass="ViewController" customModule="AppStoreInformationSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gMS-nz-UuW">
+                <viewController id="lSP-2B-X8E" customClass="ViewController" customModule="AppStoreInformation_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IOS-5v-qPc"/>
+                        <viewControllerLayoutGuide type="bottom" id="g8R-IJ-9ev"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NZO-K4-lI9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fEv-jh-s1P">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReleaseCell" rowHeight="74" id="vOD-2K-3lO" customClass="ReleaseCell" customModule="AppStoreInformationSample" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReleaseCell" rowHeight="74" id="vOD-2K-3lO" customClass="ReleaseCell" customModule="AppStoreInformation_Example" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vOD-2K-3lO" id="DxH-oN-Y7t">
@@ -69,22 +73,21 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="fEv-jh-s1P" firstAttribute="top" secondItem="KHT-9K-usK" secondAttribute="top" id="8rp-4O-FWb"/>
-                            <constraint firstItem="KHT-9K-usK" firstAttribute="bottom" secondItem="fEv-jh-s1P" secondAttribute="bottom" id="ChA-Cd-ihP"/>
-                            <constraint firstItem="fEv-jh-s1P" firstAttribute="leading" secondItem="KHT-9K-usK" secondAttribute="leading" id="U10-1g-2HS"/>
-                            <constraint firstItem="KHT-9K-usK" firstAttribute="trailing" secondItem="fEv-jh-s1P" secondAttribute="trailing" id="c6b-wC-xXt"/>
+                            <constraint firstItem="fEv-jh-s1P" firstAttribute="trailing" secondItem="NZO-K4-lI9" secondAttribute="trailing" id="g3h-Bg-BHM"/>
+                            <constraint firstItem="g8R-IJ-9ev" firstAttribute="top" secondItem="fEv-jh-s1P" secondAttribute="bottom" id="w4w-ws-sZV"/>
+                            <constraint firstItem="fEv-jh-s1P" firstAttribute="top" secondItem="NZO-K4-lI9" secondAttribute="top" id="wNv-Ed-vPe"/>
+                            <constraint firstItem="fEv-jh-s1P" firstAttribute="leading" secondItem="NZO-K4-lI9" secondAttribute="leading" id="yIf-oD-R01"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="KHT-9K-usK"/>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="fEv-jh-s1P" id="BXG-ZZ-2sx"/>
+                        <outlet property="tableView" destination="fEv-jh-s1P" id="1nl-wu-DCg"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U8g-Kj-pf0" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pt2-uK-94M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="103.89805097451276"/>
+            <point key="canvasLocation" x="-612" y="224"/>
         </scene>
     </scenes>
 </document>
