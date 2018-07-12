@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "AppStoreInformation"
-s.version      = "0.0.2"
+s.version      = "0.0.4"
 s.summary      = "Fetches AppStore web page information of the iOS application."
 s.homepage     = "https://github.com/marcmatta/AppStoreInformation.git"
 s.license      = { :type => "MIT", :file => "LICENSE" }
