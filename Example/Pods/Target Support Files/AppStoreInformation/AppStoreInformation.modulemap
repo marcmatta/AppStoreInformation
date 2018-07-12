@@ -1,0 +1,6 @@
+framework module AppStoreInformation {
+  umbrella header "AppStoreInformation-umbrella.h"
+
+  export *
+  module * { export * }
+}

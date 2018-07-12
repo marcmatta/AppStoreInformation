@@ -1,0 +1,16 @@
+PODS:
+  - AppStoreInformation (0.1.0)
+
+DEPENDENCIES:
+  - AppStoreInformation (from `../`)
+
+EXTERNAL SOURCES:
+  AppStoreInformation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppStoreInformation: ed083e26a6380e8b98b2e06b0965f1e269fb7543
+
+PODFILE CHECKSUM: c121cb4b2ae87627ea2618de8db60af395f5044f
+
+COCOAPODS: 1.5.0

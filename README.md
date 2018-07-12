@@ -5,25 +5,41 @@
 [![License](https://img.shields.io/cocoapods/l/AppStoreInformation.svg?style=flat)](https://cocoapods.org/pods/AppStoreInformation)
 [![Platform](https://img.shields.io/cocoapods/p/AppStoreInformation.svg?style=flat)](https://cocoapods.org/pods/AppStoreInformation)
 
-## Example
+## Features
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- [x] Release History
 
 ## Requirements
 
+- iOS 8.0+
+
 ## Installation
 
-AppStoreInformation is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+#### CocoaPods
+You can use [CocoaPods](http://cocoapods.org/) to install `AppStoreInformation` by adding it to your `Podfile`:
 
 ```ruby
+platform :ios, '8.0'
+use_frameworks!
 pod 'AppStoreInformation'
 ```
 
-## Author
+## Usage example
 
-marcmatta@gmail.com, marc.matta@gotocme.com
+```swift
+import AppStoreInformation
+AppStoreInformation.shared(appId: appId).get {[weak self] (result) in
+// Save result (AppInformation object) and use it
+}
+```
 
-## License
+## Contribute
 
-AppStoreInformation is available under the MIT license. See the LICENSE file for more info.
+To contribute to **AppStoreInformation**, check the ``LICENSE`` file for more info.
+
+## Meta
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
+
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
+[license-url]: LICENSE
